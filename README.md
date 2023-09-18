@@ -1,8 +1,7 @@
 # Final Capstone
 ​
-This directory contains all of the starter projects for the final capstone.
-​
-Each project contains instructions that provides information about the starting code and explains how to get started with the final capstone project.
+City Tours is an application that allows users to create and save personalized itineraries for various cities and landmarks. All user information along with itineraries and landmarks are stored in PostgreSQL while the front end is connected to the Java controllers to seamlessly access and update this database.
+
 # City-Tours
 # City-Tours
 # City-Tours
