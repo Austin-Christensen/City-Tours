@@ -1,0 +1,20 @@
+{
+  "name": "city-tours",
+  "version": "1.0.0",
+  "description": "​\r City Tours is an application that allows users to create and save personalized itineraries for various cities and landmarks. All user information along with itineraries and landmarks are stored in PostgreSQL while the front end is connected to the Java controllers to seamlessly access and update this database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Austin-Christensen/City-Tours.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Austin-Christensen/City-Tours/issues"
+  },
+  "homepage": "https://github.com/Austin-Christensen/City-Tours#readme"
+}
