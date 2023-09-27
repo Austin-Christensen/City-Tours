@@ -18,7 +18,7 @@
         <tr v-for="schedule in schedules" v-bind:key="schedule.landmarkId">
             
                 <td class="scheduleDay"> {{schedule.dayOfOperation}} </td>
-                <td class="scheduleOpenTime"> {{schedule.openTime === 0 ? 24 +' hours ' : schedule.openTime + ':00 AM'}}</td>
+                <td class="scheduleOpenTime"> {{schedule.openTime === 0 ? 24 +' hours ' : schedule.openTime > 12? schedule.openTime - 12 + ':00 PM' : schedule.openTime + ':00 AM'}}</td>
                 <td class="scheduleCloseTime"> {{ schedule.closeTime === 24 ? '': schedule.closeTime > 12? schedule.closeTime - 12 + ':00 PM' : schedule.closeTime + ':00 PM'}}</td>
           
         </tr>

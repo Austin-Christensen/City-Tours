@@ -196,6 +196,7 @@ img{
 
 a:link{
   text-decoration: none;
+  color: rgb(58, 58, 58)
 
 }
 
